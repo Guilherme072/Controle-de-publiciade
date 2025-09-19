@@ -633,6 +633,7 @@ export function PublicidadeDashboard() {
     if (!parceria) return null
 
     return (
+    <body className="bg-gradient-to-br from-slate-900 via-purple-950 to-slate-900 text-white">
       <div className={`container mx-auto p-6 space-y-6 ${darkMode ? "dark" : ""}`}>
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4">
@@ -1483,11 +1484,12 @@ export function PublicidadeDashboard() {
           </DialogContent>
         </Dialog>
       </div>
+    </body>
     )
   }
 
   return (
-    <div className={`min-h-screen transition-all duration-300 ${darkMode ? "dark bg-gray-900" : "bg-gray-50"}`}>
+    <div className={`min-h-screen transition-all duration-300 bg-gradient-to-br from-slate-900 via-purple-950 to-slate-900 text-white`}>
       <div className="container mx-auto p-6 space-y-6">
         <div className="flex items-center justify-between">
           <div className="space-y-1">
