@@ -633,7 +633,6 @@ export function PublicidadeDashboard() {
     if (!parceria) return null
 
     return (
-    <body className="bg-gradient-to-br from-slate-900 via-purple-950 to-slate-900 text-white">
       <div className={`container mx-auto p-6 space-y-6 ${darkMode ? "dark" : ""}`}>
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4">
@@ -1484,7 +1483,6 @@ export function PublicidadeDashboard() {
           </DialogContent>
         </Dialog>
       </div>
-    </body>
     )
   }
 
