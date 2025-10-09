@@ -91,7 +91,7 @@ const initialMockData = {
           redes: ["Instagram", "TikTok"],
           seguidores: { instagram: 850000, tiktok: 1200000 },
           nicho: "Lifestyle & Tech",
-          responsavel: "Ana Carolina",
+          responsavel: "Felipe Domingues",
           contato: "+55 11 99999-0001",
           whatsapp: "5511999990001",
           valor: 15000,
@@ -100,7 +100,7 @@ const initialMockData = {
           mediaKit: "https://drive.google.com/mediakit-joao",
         },
       ],
-      responsavel: "Ana Carolina",
+      responsavel: "Felipe Domingues",
       tipoInsercao: "Feed + Stories",
       progresso: 75,
       valorInfluenciadores: 15000,
@@ -160,7 +160,7 @@ const initialMockData = {
           redes: ["Instagram"],
           seguidores: { instagram: 280000 },
           nicho: "Health & Wellness",
-          responsavel: "Marina Santos",
+          responsavel: "Vinícius Florentino",
           contato: "+55 11 99999-0003",
           whatsapp: "5511999990003",
           valor: 8000,
@@ -169,7 +169,7 @@ const initialMockData = {
           mediaKit: "https://drive.google.com/mediakit-carlos",
         },
       ],
-      responsavel: "Marina Santos",
+      responsavel: "Vinícius Florentino",
       tipoInsercao: "Stories + Reels",
       progresso: 45,
       valorInfluenciadores: 8000,
@@ -180,7 +180,7 @@ const initialMockData = {
       cronograma: [
         {
           redeSocial: "Instagram",
-          responsavel: "Carlos Mendes",
+          responsavel: "José Renato",
           inicio: "01/02/2024",
           diaSemana: "Quinta-feira",
           frequencia: "1",
@@ -203,7 +203,7 @@ const initialMockData = {
       id: 101,
       marca: "Insider",
       influenciadores: ["Lucas Tech", "Gamer Pro"],
-      responsavel: "Rafael Costa",
+      responsavel: "Alex Matida",
       iniciadaEm: "2023-10-01",
       finalizadaEm: "2023-12-15",
       observacoes: "Campanha muito bem-sucedida. ROI de 340%. Renovação recomendada.",
@@ -213,7 +213,7 @@ const initialMockData = {
       id: 102,
       marca: "Opera GX",
       influenciadores: ["João Gabriel"],
-      responsavel: "Ana Carolina",
+      responsavel: "Felipe Domingues",
       iniciadaEm: "2023-11-15",
       finalizadaEm: "2024-01-10",
       observacoes: "Boa performance, mas houve atrasos na entrega de conteúdo.",
@@ -1142,9 +1142,15 @@ export function PublicidadeDashboard() {
                       <SelectValue placeholder="Selecione" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="ana">Ana Carolina</SelectItem>
-                      <SelectItem value="carlos">Carlos Silva</SelectItem>
-                      <SelectItem value="marina">Marina Santos</SelectItem>
+                      <SelectItem value="felipe">Felipe Domingues</SelectItem>
+                      <SelectItem value="vinicius">Vinícius Florentino</SelectItem>
+                      <SelectItem value="alex">Alex Matida</SelectItem>
+                      <SelectItem value="guilherme">Guilherme Vieira</SelectItem>
+                      <SelectItem value="joao">João Gabriel</SelectItem>
+                      <SelectItem value="jose">José Renato</SelectItem>
+                      <SelectItem value="vitor">Vitor Spiazzi</SelectItem>
+                      <SelectItem value="enzo">Enzo Vieira</SelectItem>
+                      <SelectItem value="manoel">Manoel Henrique</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
@@ -1274,7 +1280,7 @@ export function PublicidadeDashboard() {
                 <div className="space-y-2">
                   <div className="p-3 bg-muted rounded-lg">
                     <p className="text-sm">Prazo de emissão: até 25/12/2024</p>
-                    <p className="text-xs text-muted-foreground">Adicionado por Ana Carolina em 15/12/2024</p>
+                    <p className="text-xs text-muted-foreground">Adicionado por Felipe Domingues em 15/12/2024</p>
                   </div>
                 </div>
               </div>
@@ -1451,9 +1457,15 @@ export function PublicidadeDashboard() {
                       <SelectValue />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="Ana Carolina">Ana Carolina</SelectItem>
-                      <SelectItem value="Carlos Silva">Carlos Silva</SelectItem>
-                      <SelectItem value="Marina Santos">Marina Santos</SelectItem>
+                      <SelectItem value="Felipe Domingues">Felipe Domingues</SelectItem>
+                      <SelectItem value="Vinícius Florentino">Vinícius Florentino</SelectItem>
+                      <SelectItem value="Alex Matida">Alex Matida</SelectItem>
+                      <SelectItem value="Guilherme Vieira">Guilherme Vieira</SelectItem>
+                      <SelectItem value="João Gabriel">João Gabriel</SelectItem>
+                      <SelectItem value="José Renato">José Renato</SelectItem>
+                      <SelectItem value="Vitor Spiazzi">Vitor Spiazzi</SelectItem>
+                      <SelectItem value="Enzo Vieira">Enzo Vieira</SelectItem>
+                      <SelectItem value="Manoel Henrique">Manoel Henrique</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
@@ -1543,11 +1555,15 @@ export function PublicidadeDashboard() {
                           <SelectValue placeholder="Selecione" />
                         </SelectTrigger>
                         <SelectContent>
-                          <SelectItem value="Ana Carolina">Ana Carolina</SelectItem>
-                          <SelectItem value="Carlos Silva">Carlos Silva</SelectItem>
-                          <SelectItem value="Marina Santos">Marina Santos</SelectItem>
-                          <SelectItem value="Rafael Costa">Rafael Costa</SelectItem>
-                          <SelectItem value="Beatriz Lima">Beatriz Lima</SelectItem>
+                          <SelectItem value="Felipe Domingues">Felipe Domingues</SelectItem>
+                          <SelectItem value="Vinícius Florentino">Vinícius Florentino</SelectItem>
+                          <SelectItem value="Alex Matida">Alex Matida</SelectItem>
+                          <SelectItem value="Guilherme Vieira">Guilherme Vieira</SelectItem>
+                          <SelectItem value="João Gabriel">João Gabriel</SelectItem>
+                          <SelectItem value="José Renato">José Renato</SelectItem>
+                          <SelectItem value="Vitor Spiazzi">Vitor Spiazzi</SelectItem>
+                          <SelectItem value="Enzo Vieira">Enzo Vieira</SelectItem>
+                          <SelectItem value="Manoel Henrique">Manoel Henrique</SelectItem>
                         </SelectContent>
                       </Select>
                     </div>
@@ -2014,9 +2030,9 @@ export function PublicidadeDashboard() {
                       </SelectTrigger>
                       <SelectContent>
                         <SelectItem value="todos">Todos</SelectItem>
-                        <SelectItem value="Ana Carolina">Ana Carolina</SelectItem>
-                        <SelectItem value="Carlos Silva">Carlos Silva</SelectItem>
-                        <SelectItem value="Marina Santos">Marina Santos</SelectItem>
+                        <SelectItem value="Felipe Domingues">Felipe Domingues</SelectItem>
+                        <SelectItem value="Vinícius Florentino">Vinícius Florentino</SelectItem>
+                        <SelectItem value="Alex Matida">Alex Matida</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
